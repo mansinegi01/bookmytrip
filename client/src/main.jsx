@@ -5,6 +5,8 @@ import { createBrowserRouter, createRoutesFromElements, Route,RouterProvider } f
 import Layout from './Layout.jsx'
 import Login from './components/Login/Login.jsx'
 import Signup from "./components/SignUp/Signup.jsx"
+import axios from 'axios'
+axios.defaults.baseURL = "http://localhost:8000"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
