@@ -49,7 +49,7 @@ function Login() {
                             />
                         </div>
 
-                        <button type="submit" className="btn btn-primary mt-3" onClick={<Link to="/home"></Link>}>Register</button>
+                        <button type="submit" className="btn btn-primary mt-3" >Register</button>
                         <p>Already a member? <Link to="/" className="underline">Login</Link></p>
                     </form>
                 </div>
